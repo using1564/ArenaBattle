@@ -20,6 +20,6 @@ public class ArenaProjectEditorTarget : TargetRules
 		ref List<string> OutExtraModuleNames
 		)
 	{
-		OutExtraModuleNames.AddRange( new string[] { "ArenaProject" } );
+		OutExtraModuleNames.AddRange( new string[] { "ArenaProject", "WebService" } );
 	}
 }
