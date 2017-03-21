@@ -1,5 +1,4 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-#include "WebService.h"
+#include "WebService.h"0
 
-IMPLEMENT_MODULE( FDefaultModuleImpl, WebService );

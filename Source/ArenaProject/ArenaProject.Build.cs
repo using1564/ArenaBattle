@@ -6,7 +6,7 @@ public class ArenaProject : ModuleRules
 {
 	public ArenaProject(TargetInfo Target)
 	{
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "WebService" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

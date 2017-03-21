@@ -2,4 +2,9 @@
 
 #include "ArenaProject.h"
 
+
+DEFINE_LOG_CATEGORY(ArenaProject);
+
 IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, ArenaProject, "ArenaProject" );
+
+
