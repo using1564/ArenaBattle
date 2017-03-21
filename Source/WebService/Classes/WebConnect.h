@@ -8,12 +8,23 @@
 /**
  * 
  */
+
 UCLASS()
 class WEBSERVICE_API UWebConnect : public UObject
 {
 	GENERATED_BODY()
-	
-	
-	
-	
+
+public:
+	UWebConnect();
+
+	UPROPERTY()
+		FString Host;
+
+	UPROPERTY()
+		FString URI;
+
+	UFUNCTION()
+		void RequestToken();
 };
+
+DECLARE_LOG_CATEGORY_EXTERN(WebConnect, Log, All);
